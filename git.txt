@@ -1,0 +1,17 @@
+yum install git -y
+git --version 
+mkdir trimani
+cd trimani/
+vi file.txt
+ls -ltra === shows including hidden files
+git init . === to create empty repository
+git status 
+git add === to move file from working area to staging area
+git commit -m "message" === to move file from staging to local repo
+git config --global user.name "trimani"
+git config --global user.email "emailid"
+log in to github
+add origin using url 
+enter user name 
+generate token ==>github==>settings==>devsettings==>personaccestoken==>gentoken
+git push origin master ===to move central repo
